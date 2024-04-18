@@ -16,6 +16,17 @@ function App() {
   return (
     <>
     <Sidebar />
+    <main className='main'>
+      <Home />
+      <About />
+      <Service />
+      <Resume />
+      <Portfolio />
+      <Pricing />
+      <Testimonial />
+      <Blog />
+      <Contact />
+    </main>
     </>
   );
 }
