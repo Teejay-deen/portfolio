@@ -106,5 +106,25 @@ img{
 }
 
 .grid{
-  display: flex;
+  display: grid;
+  
+}
+
+.section {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.section__title{
+  font-size: var(--h1-font-size);
+  margin-left: 0.875rem;
+  font-weight: var(--font-bold);
+  position: relative;
+  margin-bottom: 3.7rem;
+}
+
+.section__title::before{
+  content: '';
+  background: url();
+  height: 2.25rem;
 }
