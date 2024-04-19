@@ -20,6 +20,14 @@ const HeaderSocial = () => {
       </a>
 
       <a
+        href="https://www.github.com/Teejay-deen"
+        className="home-socials-link"
+        target="_blank"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a
         href="https://www.facebook.com/"
         className="home-socials-link"
         target="_blank"
@@ -50,6 +58,8 @@ const HeaderSocial = () => {
       >
         <i class="fa-brands fa-pinterest"></i>
       </a>
+
+ 
 
   
     </div>
